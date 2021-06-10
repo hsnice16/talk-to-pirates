@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+:root {
+  --black: #333333;
+  --white: white;
+}
+
+body {
+  font-family: "Special Elite", cursive;
+  color: var(--white);
+  background-image: url("Images/halloween_decor.jpg");
+  background-size: cover;
+}
+
+/* containers */
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* header */
+
+.hero {
+  padding: 2rem;
+}
+
+.hero-img {
+  max-width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.hero-heading {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+/*  */
+
+.input-btn-output-container {
+  max-width: 600px;
+  padding: 3rem 1rem 2.5rem;
+  margin: auto;
+}
+
+#input-area {
+  display: block;
+  font-family: inherit;
+  width: 100%;
+  font-size: 1.2rem;
+  height: 7rem;
+}
+
+#processing-btn {
+  margin: 1rem 0;
+  width: 15rem;
+  background-color: var(--black);
+  color: inherit;
+  padding: 1rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+}
+
+#output-area {
+  height: 5rem;
+  border: 1px solid var(--white);
+  color: inherit;
+  padding: 2px;
+  width: 100%;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  font-size: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+}
+
+footer h2 {
+  font-weight: unset;
+  margin-top: 0;
+}
+
+footer p {
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+}
